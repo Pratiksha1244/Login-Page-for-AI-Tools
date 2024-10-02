@@ -23,3 +23,8 @@ The login page allows users to input their **username**, **email**, **mobile num
 1. Clone the repository to your local machine using the following command:
    ```bash
    git clone https://github.com/yourusername/login-page-ai-tools.git
+
+## Screenshots
+![Screenshot 2024-10-03 010737](https://github.com/user-attachments/assets/19c49f0e-c025-47c7-a65a-377b345f91dd)
+
+   
