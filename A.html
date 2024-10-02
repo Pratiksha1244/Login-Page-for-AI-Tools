@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2ebf3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: hwb(207 30% 54%);
+            border-radius: 15px;
+            box-shadow: 0 0 1000px rgb(12, 79, 134);
+            padding: 10px;
+            width: 300px;
+            text-align: center;
+
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+
+        .login-container button {
+            background-color: #4caf50;
+            color: #f7f2f2a8;
+            padding: 10px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            width: 30%;
+            border-radius: 20px;
+        }
+
+        h2 {
+            color: rgb(193, 166, 134);
+            text-shadow: 1px 1px red;
+        }
+
+        input:hover {
+            background-color: #59c1d1;
+        }
+
+        button:hover {
+            background-color: rgb(229, 196, 234);
+        }
+    </style>
+</head>
+
+<body background="AI1.jpg   ">
+
+    <div class="login-container">
+
+        <h2>LOGIN FOR AI TOOLS</h2>
+        <form action="your_server_endpoint" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <br>
+            <input type="text" name="email" placeholder="email" required>
+            <br>
+            <input type="number" name="mobile no" placeholder="mobile no" required>
+
+            <br>
+            <input type="password" name="password" placeholder="Password" required> <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>
